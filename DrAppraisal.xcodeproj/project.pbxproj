@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40DD3A551AB0D4BC00571E21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DD3A541AB0D4BC00571E21 /* AppDelegate.swift */; };
+		40DD3A571AB0D4BC00571E21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DD3A561AB0D4BC00571E21 /* ViewController.swift */; };
+		40DD3A5A1AB0D4BC00571E21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40DD3A581AB0D4BC00571E21 /* Main.storyboard */; };
+		40DD3A5C1AB0D4BC00571E21 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40DD3A5B1AB0D4BC00571E21 /* Images.xcassets */; };
+		40DD3A5F1AB0D4BC00571E21 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40DD3A5D1AB0D4BC00571E21 /* LaunchScreen.xib */; };
+		40DD3A6B1AB0D4BC00571E21 /* DrAppraisalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DD3A6A1AB0D4BC00571E21 /* DrAppraisalTests.swift */; };
+		40DD3A751AB0D65500571E21 /* PatientDemographicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DD3A741AB0D65500571E21 /* PatientDemographicsViewController.swift */; };
+		40DD3A771AB0D68400571E21 /* ClinicalEncounterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DD3A761AB0D68400571E21 /* ClinicalEncounterViewController.swift */; };
+		40DD3A791AB0D69900571E21 /* ClinicalDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DD3A781AB0D69900571E21 /* ClinicalDetailsViewController.swift */; };
+		40DD3A7B1AB0D6AA00571E21 /* ProceduresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DD3A7A1AB0D6AA00571E21 /* ProceduresViewController.swift */; };
+		40DD3A7D1AB0D6BA00571E21 /* FollowUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DD3A7C1AB0D6BA00571E21 /* FollowUpViewController.swift */; };
+		40DD3A7F1AB0D6DB00571E21 /* ReflectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DD3A7E1AB0D6DB00571E21 /* ReflectionViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40DD3A651AB0D4BC00571E21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40DD3A471AB0D4BC00571E21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40DD3A4E1AB0D4BC00571E21;
+			remoteInfo = DrAppraisal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40DD3A4F1AB0D4BC00571E21 /* DrAppraisal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrAppraisal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40DD3A531AB0D4BC00571E21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40DD3A541AB0D4BC00571E21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		40DD3A561AB0D4BC00571E21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		40DD3A591AB0D4BC00571E21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40DD3A5B1AB0D4BC00571E21 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		40DD3A5E1AB0D4BC00571E21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		40DD3A641AB0D4BC00571E21 /* DrAppraisalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrAppraisalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40DD3A691AB0D4BC00571E21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40DD3A6A1AB0D4BC00571E21 /* DrAppraisalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrAppraisalTests.swift; sourceTree = "<group>"; };
+		40DD3A741AB0D65500571E21 /* PatientDemographicsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientDemographicsViewController.swift; sourceTree = "<group>"; };
+		40DD3A761AB0D68400571E21 /* ClinicalEncounterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClinicalEncounterViewController.swift; sourceTree = "<group>"; };
+		40DD3A781AB0D69900571E21 /* ClinicalDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClinicalDetailsViewController.swift; sourceTree = "<group>"; };
+		40DD3A7A1AB0D6AA00571E21 /* ProceduresViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProceduresViewController.swift; sourceTree = "<group>"; };
+		40DD3A7C1AB0D6BA00571E21 /* FollowUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowUpViewController.swift; sourceTree = "<group>"; };
+		40DD3A7E1AB0D6DB00571E21 /* ReflectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReflectionViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40DD3A4C1AB0D4BC00571E21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40DD3A611AB0D4BC00571E21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40DD3A461AB0D4BC00571E21 = {
+			isa = PBXGroup;
+			children = (
+				40DD3A511AB0D4BC00571E21 /* DrAppraisal */,
+				40DD3A671AB0D4BC00571E21 /* DrAppraisalTests */,
+				40DD3A501AB0D4BC00571E21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40DD3A501AB0D4BC00571E21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40DD3A4F1AB0D4BC00571E21 /* DrAppraisal.app */,
+				40DD3A641AB0D4BC00571E21 /* DrAppraisalTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40DD3A511AB0D4BC00571E21 /* DrAppraisal */ = {
+			isa = PBXGroup;
+			children = (
+				40DD3A541AB0D4BC00571E21 /* AppDelegate.swift */,
+				40DD3A561AB0D4BC00571E21 /* ViewController.swift */,
+				40DD3A581AB0D4BC00571E21 /* Main.storyboard */,
+				40DD3A5B1AB0D4BC00571E21 /* Images.xcassets */,
+				40DD3A5D1AB0D4BC00571E21 /* LaunchScreen.xib */,
+				40DD3A521AB0D4BC00571E21 /* Supporting Files */,
+				40DD3A741AB0D65500571E21 /* PatientDemographicsViewController.swift */,
+				40DD3A761AB0D68400571E21 /* ClinicalEncounterViewController.swift */,
+				40DD3A781AB0D69900571E21 /* ClinicalDetailsViewController.swift */,
+				40DD3A7A1AB0D6AA00571E21 /* ProceduresViewController.swift */,
+				40DD3A7C1AB0D6BA00571E21 /* FollowUpViewController.swift */,
+				40DD3A7E1AB0D6DB00571E21 /* ReflectionViewController.swift */,
+			);
+			path = DrAppraisal;
+			sourceTree = "<group>";
+		};
+		40DD3A521AB0D4BC00571E21 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40DD3A531AB0D4BC00571E21 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		40DD3A671AB0D4BC00571E21 /* DrAppraisalTests */ = {
+			isa = PBXGroup;
+			children = (
+				40DD3A6A1AB0D4BC00571E21 /* DrAppraisalTests.swift */,
+				40DD3A681AB0D4BC00571E21 /* Supporting Files */,
+			);
+			path = DrAppraisalTests;
+			sourceTree = "<group>";
+		};
+		40DD3A681AB0D4BC00571E21 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40DD3A691AB0D4BC00571E21 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40DD3A4E1AB0D4BC00571E21 /* DrAppraisal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40DD3A6E1AB0D4BC00571E21 /* Build configuration list for PBXNativeTarget "DrAppraisal" */;
+			buildPhases = (
+				40DD3A4B1AB0D4BC00571E21 /* Sources */,
+				40DD3A4C1AB0D4BC00571E21 /* Frameworks */,
+				40DD3A4D1AB0D4BC00571E21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrAppraisal;
+			productName = DrAppraisal;
+			productReference = 40DD3A4F1AB0D4BC00571E21 /* DrAppraisal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40DD3A631AB0D4BC00571E21 /* DrAppraisalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40DD3A711AB0D4BC00571E21 /* Build configuration list for PBXNativeTarget "DrAppraisalTests" */;
+			buildPhases = (
+				40DD3A601AB0D4BC00571E21 /* Sources */,
+				40DD3A611AB0D4BC00571E21 /* Frameworks */,
+				40DD3A621AB0D4BC00571E21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40DD3A661AB0D4BC00571E21 /* PBXTargetDependency */,
+			);
+			name = DrAppraisalTests;
+			productName = DrAppraisalTests;
+			productReference = 40DD3A641AB0D4BC00571E21 /* DrAppraisalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40DD3A471AB0D4BC00571E21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = HamishDickson;
+				TargetAttributes = {
+					40DD3A4E1AB0D4BC00571E21 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					40DD3A631AB0D4BC00571E21 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 40DD3A4E1AB0D4BC00571E21;
+					};
+				};
+			};
+			buildConfigurationList = 40DD3A4A1AB0D4BC00571E21 /* Build configuration list for PBXProject "DrAppraisal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40DD3A461AB0D4BC00571E21;
+			productRefGroup = 40DD3A501AB0D4BC00571E21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40DD3A4E1AB0D4BC00571E21 /* DrAppraisal */,
+				40DD3A631AB0D4BC00571E21 /* DrAppraisalTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40DD3A4D1AB0D4BC00571E21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40DD3A5A1AB0D4BC00571E21 /* Main.storyboard in Resources */,
+				40DD3A5F1AB0D4BC00571E21 /* LaunchScreen.xib in Resources */,
+				40DD3A5C1AB0D4BC00571E21 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40DD3A621AB0D4BC00571E21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40DD3A4B1AB0D4BC00571E21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40DD3A751AB0D65500571E21 /* PatientDemographicsViewController.swift in Sources */,
+				40DD3A771AB0D68400571E21 /* ClinicalEncounterViewController.swift in Sources */,
+				40DD3A7B1AB0D6AA00571E21 /* ProceduresViewController.swift in Sources */,
+				40DD3A7F1AB0D6DB00571E21 /* ReflectionViewController.swift in Sources */,
+				40DD3A571AB0D4BC00571E21 /* ViewController.swift in Sources */,
+				40DD3A7D1AB0D6BA00571E21 /* FollowUpViewController.swift in Sources */,
+				40DD3A551AB0D4BC00571E21 /* AppDelegate.swift in Sources */,
+				40DD3A791AB0D69900571E21 /* ClinicalDetailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40DD3A601AB0D4BC00571E21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40DD3A6B1AB0D4BC00571E21 /* DrAppraisalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40DD3A661AB0D4BC00571E21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40DD3A4E1AB0D4BC00571E21 /* DrAppraisal */;
+			targetProxy = 40DD3A651AB0D4BC00571E21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		40DD3A581AB0D4BC00571E21 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40DD3A591AB0D4BC00571E21 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		40DD3A5D1AB0D4BC00571E21 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40DD3A5E1AB0D4BC00571E21 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40DD3A6C1AB0D4BC00571E21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40DD3A6D1AB0D4BC00571E21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40DD3A6F1AB0D4BC00571E21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DrAppraisal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		40DD3A701AB0D4BC00571E21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DrAppraisal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		40DD3A721AB0D4BC00571E21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DrAppraisalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrAppraisal.app/DrAppraisal";
+			};
+			name = Debug;
+		};
+		40DD3A731AB0D4BC00571E21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DrAppraisalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrAppraisal.app/DrAppraisal";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40DD3A4A1AB0D4BC00571E21 /* Build configuration list for PBXProject "DrAppraisal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40DD3A6C1AB0D4BC00571E21 /* Debug */,
+				40DD3A6D1AB0D4BC00571E21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40DD3A6E1AB0D4BC00571E21 /* Build configuration list for PBXNativeTarget "DrAppraisal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40DD3A6F1AB0D4BC00571E21 /* Debug */,
+				40DD3A701AB0D4BC00571E21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		40DD3A711AB0D4BC00571E21 /* Build configuration list for PBXNativeTarget "DrAppraisalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40DD3A721AB0D4BC00571E21 /* Debug */,
+				40DD3A731AB0D4BC00571E21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40DD3A471AB0D4BC00571E21 /* Project object */;
+}
