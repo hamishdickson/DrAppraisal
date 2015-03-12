@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
     <scenes>
-        <!--Clinical Encounter-->
+        <!--Encounter-->
         <scene sceneID="2IP-zu-OsV">
             <objects>
                 <viewController id="FQF-Ka-JCc" sceneMemberID="viewController">
@@ -17,13 +17,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Clinical Encounter" id="QDp-fZ-D1k"/>
+                    <tabBarItem key="tabBarItem" title="Encounter" id="QDp-fZ-D1k"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JeC-Q1-dgE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="810" y="713"/>
         </scene>
-        <!--Clinical Details-->
+        <!--Details-->
         <scene sceneID="h3G-H3-fib">
             <objects>
                 <viewController id="7Eo-kS-PyP" sceneMemberID="viewController">
@@ -44,7 +44,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Clinical Details" id="Y5i-qz-Uvh"/>
+                    <tabBarItem key="tabBarItem" title="Details" id="Y5i-qz-Uvh"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WDL-0z-g9P" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -107,7 +107,7 @@
             </objects>
             <point key="canvasLocation" x="809" y="3578"/>
         </scene>
-        <!--Patient Demographics-->
+        <!--Patient-->
         <scene sceneID="1wY-gv-RSI">
             <objects>
                 <viewController id="qEM-Mb-5cf" sceneMemberID="viewController">
@@ -120,7 +120,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Patient Demographics" id="bzW-fG-rZw"/>
+                    <tabBarItem key="tabBarItem" title="Patient" id="bzW-fG-rZw"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bDb-YJ-VLR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
