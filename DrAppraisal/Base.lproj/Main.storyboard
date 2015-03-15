@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="WNX-R4-wdA">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Encounter-->
@@ -22,8 +23,8 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="encounter id" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O4A-pl-zbx">
-                                <rect key="frame" x="488" y="28" width="96" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="###" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O4A-pl-zbx">
+                                <rect key="frame" x="155" y="28" width="429" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -304,55 +305,65 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hospital number:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bmK-6x-Wu9">
-                                <rect key="frame" x="16" y="31" width="132" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hospital number:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bmK-6x-Wu9">
+                                <rect key="frame" x="16" y="41" width="131.5" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Hospital number" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2sI-Hh-1J5">
-                                <rect key="frame" x="156" y="28" width="428" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Hospital number" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2sI-Hh-1J5">
+                                <rect key="frame" x="456.5" y="36" width="127.5" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="DoB:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JGB-i0-Ppd">
-                                <rect key="frame" x="16" y="136" width="39" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Age/DoB:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JGB-i0-Ppd">
+                                <rect key="frame" x="16" y="82.5" width="74.5" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Age" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KEk-cQ-7zb">
-                                <rect key="frame" x="156" y="236" width="428" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
-                            </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Age:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KGm-Z2-g3i">
-                                <rect key="frame" x="16" y="239" width="35" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="fjG-4U-sU6">
-                                <rect key="frame" x="156" y="274" width="117" height="29"/>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="fjG-4U-sU6">
+                                <rect key="frame" x="242" y="286" width="117" height="29"/>
                                 <segments>
                                     <segment title="Male"/>
                                     <segment title="Female"/>
                                 </segments>
                             </segmentedControl>
-                            <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="bjN-1b-jfp">
-                                <rect key="frame" x="156" y="66" width="428" height="162"/>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="bjN-1b-jfp">
+                                <rect key="frame" x="140" y="116" width="320" height="162"/>
                                 <date key="date" timeIntervalSinceReferenceDate="447889738.48326701">
                                     <!--2015-03-12 21:48:58 +0000-->
                                 </date>
                             </datePicker>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Gender:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yHP-2a-c3O">
-                                <rect key="frame" x="16" y="277" width="62" height="21"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Age" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KEk-cQ-7zb">
+                                <rect key="frame" x="537.5" y="78" width="46.5" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gender:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yHP-2a-c3O">
+                                <rect key="frame" x="16" y="290" width="62" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="JGB-i0-Ppd" firstAttribute="centerY" secondItem="KEk-cQ-7zb" secondAttribute="centerY" id="0BX-TJ-Cgp"/>
+                            <constraint firstItem="JGB-i0-Ppd" firstAttribute="leading" secondItem="6ac-f4-q37" secondAttribute="leadingMargin" id="1Lf-Qr-3HP"/>
+                            <constraint firstItem="KEk-cQ-7zb" firstAttribute="trailing" secondItem="6ac-f4-q37" secondAttribute="trailingMargin" id="8cb-tM-VXt"/>
+                            <constraint firstItem="yHP-2a-c3O" firstAttribute="leading" secondItem="6ac-f4-q37" secondAttribute="leadingMargin" id="9uI-xT-ChJ"/>
+                            <constraint firstAttribute="centerX" secondItem="fjG-4U-sU6" secondAttribute="centerX" id="CfY-Dz-fge"/>
+                            <constraint firstAttribute="centerX" secondItem="bjN-1b-jfp" secondAttribute="centerX" id="DvU-yg-qO2"/>
+                            <constraint firstItem="2sI-Hh-1J5" firstAttribute="top" secondItem="mdY-Vc-aki" secondAttribute="bottom" constant="16" id="L6U-ud-eFG"/>
+                            <constraint firstItem="bmK-6x-Wu9" firstAttribute="leading" secondItem="6ac-f4-q37" secondAttribute="leadingMargin" id="Pvq-ZX-pfc"/>
+                            <constraint firstItem="2sI-Hh-1J5" firstAttribute="centerY" secondItem="bmK-6x-Wu9" secondAttribute="centerY" id="cDe-Zh-UoL"/>
+                            <constraint firstItem="2sI-Hh-1J5" firstAttribute="trailing" secondItem="6ac-f4-q37" secondAttribute="trailingMargin" id="gMb-0M-jc5"/>
+                            <constraint firstItem="fjG-4U-sU6" firstAttribute="centerY" secondItem="yHP-2a-c3O" secondAttribute="centerY" id="k1Z-xN-gSA"/>
+                            <constraint firstItem="KEk-cQ-7zb" firstAttribute="top" secondItem="2sI-Hh-1J5" secondAttribute="bottom" constant="12" id="m7u-eb-WQb"/>
+                            <constraint firstItem="fjG-4U-sU6" firstAttribute="top" secondItem="bjN-1b-jfp" secondAttribute="bottom" constant="8" id="rSc-9a-Mmh"/>
+                            <constraint firstItem="bjN-1b-jfp" firstAttribute="top" secondItem="KEk-cQ-7zb" secondAttribute="bottom" constant="8" id="wwM-7Y-nUx"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Patient" id="bzW-fG-rZw"/>
                 </viewController>
