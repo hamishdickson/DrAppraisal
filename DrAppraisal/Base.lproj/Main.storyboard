@@ -281,30 +281,48 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Learning points" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NyM-5A-RxX">
-                                <rect key="frame" x="209" y="28" width="375" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Learning points" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NyM-5A-RxX">
+                                <rect key="frame" x="103" y="61" width="375" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="90" id="oUo-Bd-Ne8"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Learning needs" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DA6-Vg-UGl">
-                                <rect key="frame" x="209" y="66" width="375" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Specific learning points:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vj3-fF-Hga">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Specific learning points:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vj3-fF-Hga">
                                 <rect key="frame" x="16" y="32" width="185" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Specific learning needs:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7tz-3E-46q">
-                                <rect key="frame" x="16" y="70" width="184" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Specific learning needs:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7tz-3E-46q">
+                                <rect key="frame" x="16" y="99" width="184" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Learning needs" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DA6-Vg-UGl">
+                                <rect key="frame" x="97" y="128" width="375" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="90" id="ZWN-uU-uYd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="NyM-5A-RxX" secondAttribute="trailing" id="9Ze-AA-Km3"/>
+                            <constraint firstItem="DA6-Vg-UGl" firstAttribute="leading" secondItem="1b8-Ea-Al3" secondAttribute="leadingMargin" id="D6r-Ye-iEg"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="DA6-Vg-UGl" secondAttribute="trailing" id="Gzc-cr-pvt"/>
+                            <constraint firstItem="Vj3-fF-Hga" firstAttribute="top" secondItem="Te7-nS-WJJ" secondAttribute="bottom" constant="16" id="It8-KH-0XJ"/>
+                            <constraint firstItem="NyM-5A-RxX" firstAttribute="leading" secondItem="1b8-Ea-Al3" secondAttribute="leadingMargin" id="RZL-jT-e0p"/>
+                            <constraint firstItem="NyM-5A-RxX" firstAttribute="top" secondItem="Vj3-fF-Hga" secondAttribute="bottom" constant="8" id="avG-gH-xfC"/>
+                            <constraint firstItem="DA6-Vg-UGl" firstAttribute="top" secondItem="7tz-3E-46q" secondAttribute="bottom" constant="8" id="cFS-Ee-3dc"/>
+                            <constraint firstItem="7tz-3E-46q" firstAttribute="leading" secondItem="1b8-Ea-Al3" secondAttribute="leadingMargin" id="e5a-uz-XjA"/>
+                            <constraint firstItem="Vj3-fF-Hga" firstAttribute="leading" secondItem="1b8-Ea-Al3" secondAttribute="leadingMargin" id="hkC-O4-d16"/>
+                            <constraint firstItem="7tz-3E-46q" firstAttribute="top" secondItem="NyM-5A-RxX" secondAttribute="bottom" constant="8" id="y9Y-Og-rNu"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Reflection" id="tol-DQ-0yM"/>
                 </viewController>
